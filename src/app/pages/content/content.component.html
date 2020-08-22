@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="content">
+    <h1>{{ operatorType }}</h1>
+
+    <div class="content__short-description">
+      <p>
+        {{ shortDescription }}
+      </p>
+    </div>
+
+    <code class="content__signature">{{ signature }}</code>
+  </div>
+
+  <div class="content__example">
+    <h2>Example</h2>
+    <app-code-block
+      codePath="assets/markdown/operators/{{ operatorType }}.md"
+    ></app-code-block>
+  </div>
+</div>

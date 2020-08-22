@@ -1,0 +1,25 @@
+.container {
+  padding: 2rem;
+}
+
+.content {
+  &__signature {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+
+    background-color: rgb(245, 243, 243);
+    padding: 5px 10px;
+    margin: 10px 0;
+  }
+
+  &__short-description {
+    p {
+      border-left: 5px solid green;
+      padding-left: 10px;
+    }
+  }
+
+  &__example {
+  }
+}
