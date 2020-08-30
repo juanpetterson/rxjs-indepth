@@ -15,6 +15,11 @@ const routes: Routes = [
         component: ContentComponent,
         data: { operator: OperatorType.TAP },
       },
+      {
+        path: 'map',
+        component: ContentComponent,
+        data: { operator: OperatorType.MAP },
+      },
     ],
   },
 ];
